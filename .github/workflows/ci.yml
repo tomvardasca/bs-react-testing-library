@@ -7,17 +7,17 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        node-version: ['12', '10']
+        node-version: ['14', '12', '10']
     steps:
       - uses: actions/checkout@v2
       - name: Setup Node ${{ matrix.node-version }}
         uses: actions/setup-node@v1
         with:
           node-version: ${{ matrix.node-version }}
-      - name: Setup Deno 0.40
+      - name: Setup Deno 1.7
         uses: denolib/setup-deno@v2
         with:
-          deno-version: '0.40'
+          deno-version: '1.7'
       - run: yarn install --frozen-lockfile
       - run: yarn --check-files
       - run: deno run --allow-read --allow-write https://denopkg.com/wyze/conditional_bisect@v1.0.1/mod.ts
