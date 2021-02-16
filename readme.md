@@ -90,7 +90,7 @@ MIT © [Neil Kistner](https://neilkistner.com) and Tomé Vardasca
 [actions-url]: https://github.com/tomvardasca/rescript-react-testing-library/actions
 
 [npm-image]: https://img.shields.io/npm/v/rescript-react-testing-library.svg?style=flat-square
-[npm-url]: https://npm.im/rescript-react-testing-library
+[npm-url]: https://npm.im/@tomvardasca/rescript-react-testing-library
 
 [codecov-image]: https://img.shields.io/codecov/c/github/tomvardasca/rescript-react-testing-library.svg?style=flat-square
 [codecov-url]: https://codecov.io/github/tomvardasca/rescript-react-testing-library
