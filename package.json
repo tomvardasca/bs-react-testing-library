@@ -1,6 +1,6 @@
 {
   "name": "@tomvardasca/rescript-react-testing-library",
-  "version": "0.8.0",
+  "version": "0.9.0",
   "description": "ReScript bindings for react-testing-library.",
   "repository": "tomvardasca/rescript-react-testing-library",
   "author": {
@@ -47,6 +47,7 @@
   },
   "devDependencies": {
     "@glennsl/bs-jest": "^0.6.0",
+    "@rescript/react": "^0.10.1",
     "@sheerun/mutationobserver-shim": "^0.3.3",
     "@wyze/changelog": "^1.0.0",
     "@wyze/github-release": "^1.1.1",
@@ -55,7 +56,6 @@
     "npm-run-all": "^4.1.5",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
-    "@rescript/react": "^0.10.1",
     "rimraf": "^3.0.2"
   }
 }

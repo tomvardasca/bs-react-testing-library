@@ -2,6 +2,12 @@
 
 ### [v0.9.0](https://github.com/tomvardasca/rescript-react-testing-library/releases/tag/v0.9.0) (2021-02-16)
 
+* Update package to ReScript ([@tomvardasca](https://github.com/tomvardasca) in [b31ea9a](https://github.com/tomvardasca/rescript-react-testing-library/commit/b31ea9a))
+* Update to `@rescript/react` and update other deps to latest versions ([@tomvardasca](https://github.com/tomvardasca) in [c5bc790](https://github.com/tomvardasca/rescript-react-testing-library/commit/c5bc790))
+* Fix CI/CD by using newer version of deno ([@tomvardasca](https://github.com/tomvardasca) in [2a7197a](https://github.com/tomvardasca/rescript-react-testing-library/commit/2a7197a))
+
+### [v0.9.0](https://github.com/tomvardasca/rescript-react-testing-library/releases/tag/v0.9.0) (2021-02-16)
+
 * Upgrade to latest dependencies and upgrade to `@rescript/react`
 * Change repo and package name from `bs-react-testing-library` to `rescript-react-testing-library`
 
