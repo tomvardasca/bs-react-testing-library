@@ -1,23 +1,40 @@
 name: CI
 
-on: [push, pull_request]
+on:
+  push:
+    branches: [ master ]
+  pull_request:
+    branches: [ master ]
 
 jobs:
   build:
-    runs-on: ubuntu-latest
+    runs-on: ${{ matrix.os }}
     strategy:
       matrix:
-        node-version: ['12', '10']
+        os:
+          - ubuntu-latest
+          - macos-latest
+          - windows-latest
+        node_version:
+          - 12
+          - 14
+        architecture:
+          - x64
+        deno: ["0.40"]
+    name: Node ${{ matrix.node_version }} - ${{ matrix.architecture }} on ${{ matrix.os }}
     steps:
       - uses: actions/checkout@v2
-      - name: Setup Node ${{ matrix.node-version }}
-        uses: actions/setup-node@v1
+      - name: Setup node
+        uses: actions/setup-node@v2
         with:
-          node-version: ${{ matrix.node-version }}
-      - name: Setup Deno 0.40
-        uses: denolib/setup-deno@220d9c6
+          node-version: ${{ matrix.node_version }}
+          architecture: ${{ matrix.architecture }}
+      - name: Setup Deno
+        uses: denolib/setup-deno@v2
         with:
-          deno-version: '0.40'
+          deno-version: ${{ matrix.deno }}
+      - name: Install esy
+        run: npm install -g esy
       - run: yarn install --frozen-lockfile
       - run: yarn --check-files
       - run: deno run --allow-read --allow-write https://denopkg.com/wyze/conditional_bisect@v1.0.1/mod.ts
