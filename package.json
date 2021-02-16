@@ -1,6 +1,6 @@
 {
   "name": "@tomvardasca/rescript-react-testing-library",
-  "version": "0.9.0",
+  "version": "0.9.1",
   "description": "ReScript bindings for react-testing-library.",
   "repository": "tomvardasca/rescript-react-testing-library",
   "author": {
