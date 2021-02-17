@@ -88,6 +88,11 @@ $ yarn test
 
 MIT © [Neil Kistner](https://neilkistner.com) and Tomé Vardasca
 
+## Credits
+
+This is a fork of the great work from [Neil Kistner](https://neilkistner.com) on [bs-react-testing-library](https://github.com/wyze/bs-react-testing-library)
+
+
 [actions-image]: https://img.shields.io/github/workflow/status/tomvardasca/rescript-react-testing-library/CI.svg?style=flat-square
 [actions-url]: https://github.com/tomvardasca/rescript-react-testing-library/actions
 
