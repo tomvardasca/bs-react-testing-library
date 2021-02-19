@@ -1,4 +1,4 @@
-# rescript-react-testing-library &middot; [![Build Status][actions-image]][actions-url] [![npm][npm-image]][npm-url] [![Codecov][codecov-image]][codecov-url]
+# @tomvardasca/rescript-react-testing-library &middot; [![Build Status][actions-image]][actions-url] [![npm][npm-image]][npm-url] [![Codecov][codecov-image]][codecov-url]
 
 > [ReScript](//github.com/rescript-lang/rescript-compiler) bindings for [react-testing-library](//github.com/testing-library/react-testing-library).
 
@@ -9,11 +9,11 @@
 ## Installation
 
 ```sh
-$ yarn add --dev rescript-react-testing-library
+$ yarn add --dev @tomvardasca/rescript-react-testing-library
 
 # or..
 
-$ npm install --save-dev rescript-react-testing-library
+$ npm install --save-dev @tomvardasca/rescript-react-testing-library
 ```
 
 ## Usage
@@ -23,7 +23,7 @@ $ npm install --save-dev rescript-react-testing-library
 ```json
 {
   "bs-dev-dependencies": [
-    "rescript-react-testing-library"
+    "@tomvardasca/rescript-react-testing-library"
   ]
 }
 ```
