@@ -1,5 +1,10 @@
 ## Change Log
 
+### [v0.9.2](https://github.com/tomvardasca/rescript-react-testing-library/releases/tag/v0.9.2) (2021-02-19)
+
+* Update readme.md ([@tomvardasca](https://github.com/tomvardasca) in [1337603](https://github.com/tomvardasca/rescript-react-testing-library/commit/1337603))
+* Update readme credits ([@tomvardasca](https://github.com/tomvardasca) in [3d89f55](https://github.com/tomvardasca/rescript-react-testing-library/commit/3d89f55))
+
 ### [v0.9.1](https://github.com/tomvardasca/rescript-react-testing-library/releases/tag/v0.9.1) (2021-02-16)
 
 * Fix package na on bsconfig ([@tomvardasca](https://github.com/tomvardasca) in [551f782](https://github.com/tomvardasca/rescript-react-testing-library/commit/551f782))
